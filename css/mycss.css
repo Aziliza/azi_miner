@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .mycanvasb{
 	
 	left: 200px;
@@ -91,4 +92,99 @@
 	  transform-origin: 0 0;
 	  transform: rotateZ(90deg) translateY(-70%) scaleX(1.5) scaleY(1.5);
 	}
+=======
+.mycanvasb{
+	
+	left: 200px;
+	top: 0px;
+	z-index: 1;
+	position: absolute;
+}
+
+.hook{
+	
+	left: 690px;
+	top: 100px;
+	z-index: 8;
+	position: absolute;
+	transform-origin: top;
+}
+
+.myline{
+	
+	left: 200px;
+	top: 0px;
+	z-index: 5;
+	position: absolute;
+	
+}
+
+.material{
+	
+	left: 200px;
+	top: 0px;
+	z-index: 12;
+	position: absolute;
+	
+}
+.move{
+	
+	left: 200px;
+	top: 0px;
+	z-index: 13;
+	position: absolute;
+	
+}
+.music{
+	
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+	position: absolute;
+	
+}
+.guodu{
+	
+	left: 200px;
+	top: 0px;
+	z-index: 19;
+	position: absolute;
+	
+}
+* {
+	/*初始化样式*/
+	margin: 0;
+	padding: 0;
+  }
+  html {
+	/*用于 获取 屏幕的可视宽高*/
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+  }
+  body {
+	/*让 body 初始 width 和 height 就 等于 页面可视区域的 宽高*/
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 65%;
+  
+	/*用于 测试的 样式*/
+	background-color: #444;
+	color: #FFF;
+	letter-spacing: 4px;
+	font-size: 28px;
+	/*文字居中*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  @media screen and (orientation:portrait) {
+	/*竖屏样式*/
+	body {
+	  transform-origin: 0 0;
+	  transform: rotateZ(90deg) translateY(-70%) scaleX(1.5) scaleY(1.5);
+	}
+>>>>>>> 750fa39c55f116ec8bb4d8eefa1fd96c9a6561d0
   }
