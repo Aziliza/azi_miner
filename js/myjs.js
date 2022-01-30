@@ -236,3 +236,14 @@ document.onkeydown = function(e){
 		
 	}
 }
+document.addEventListener('click', function(){
+	if(hook_state != 0) pass;
+	else{
+	console.log("ok");
+	catch_material = 0;
+	$("hook_out").src = "music/出勾音效.mp3";
+	$("hook_out").play();
+	hook_state = 1;speed = 3;
+	mark_time = 0;
+	}
+})
